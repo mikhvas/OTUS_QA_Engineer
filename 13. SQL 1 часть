@@ -1,3 +1,33 @@
+Домашнее задание
+SQL
+
+Описание/Пошаговая инструкция выполнения домашнего задания:
+Открыть сайт
+https://www.db-fiddle.com/
+Выберите базу PostgreSql
+В блок Schema SQL вставьте текст
+CREATE TABLE otusQA(CustomerID int PRIMARY KEY,
+CustomerName varchar(150),
+ContactName varchar(150),
+Address varchar(150),
+City varchar(150),
+PostalCode varchar(150),
+Country varchar(150));
+INSERT INTO otusQA VALUES(1,'Alfreds Futterkiste', 'Maria Anders', 'Obere Str. 57', 'Berlin', '12209', 'Germany');
+INSERT INTO otusQA VALUES(2,'Ana Trujillo Emparedados y helados', 'Ana Trujillo', 'Avda. de la Constitución 2222', 'México D.F.', '05021', 'Mexico');
+INSERT INTO otusQA VALUES(3,'Antonio Moreno Taquería', 'Antonio Moreno', 'Mataderos 2312', 'México D.F.', '05023', 'Mexico');
+INSERT INTO otusQA VALUES(4,'Around the Horn', 'Thomas Hardy', '120 Hanover Sq.', 'London', 'WA1 1DP', 'UK');
+INSERT INTO otusQA VALUES(5,'Berglunds snabbköp', 'Christina Berglund', 'Berguvsvägen 8', 'Luleå', 'S-958 22', 'Sweden');
+Составьте запросы, которые:
+a) Выведите значение колонки ContactName
+b) Выведите все возможные значения колонки Country
+c) Выведите все записи, где City имеет значение London
+d) Выведите все записи, где City не равен London
+e) Выберите все записи, где Country равна Mexico и Postal Code 05021
+f) Выберете все записи у которых Country равна Mexico или Sweden
+Пришлите в чат с преподавателем запросы.
+--------------------------------
+
 
 1) select contactname
 from otusQA
