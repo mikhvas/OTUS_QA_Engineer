@@ -1,0 +1,15 @@
+
+1) select contactname
+from otusQA
+2) select distinct country
+from otusQA
+3) select *
+from otusQA
+where city ='London'
+4) select * from otusQA
+where city != 'London'
+5)select * from otusQA
+where country = 'Mexico' and postalCode = 05021
+6) select * from otusQA
+where country = 'Mexico' or country ='Sweden' или 
+select * from otusQA where Country IN ('Mexico', 'Sweden')
